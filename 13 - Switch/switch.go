@@ -56,6 +56,7 @@ func diaDaSemana2(numero int) string {
 }
 
 func main() {
+	// No Go não possui o break, quando a condição é satisfeita
 	fmt.Println("Switch")
 	dia := diaDaSemana(7)
 	fmt.Println(dia)
